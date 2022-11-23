@@ -1,0 +1,9 @@
+﻿  Lab4_2.cpp
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_2\Lab4_2.cpp(9,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_2\Lab4_2.cpp(13,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Создание кода
+  5 of 17 functions (29.4%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Lab4_2.vcxproj -> C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\x64\Release\Lab4_2.exe

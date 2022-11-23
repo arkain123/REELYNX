@@ -1,0 +1,5 @@
+﻿  Lab5_2.cpp
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab5_2\Lab5_2.cpp(6,30): error C2087: array: отсутствует индекс
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab5_2\Lab5_2.cpp(66,50): error C2664: "int kol_wozeros(int [][],int,int,int)": невозможно преобразовать аргумент 1 из "int [10][10]" в "int [][]"
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab5_2\Lab5_2.cpp(66,28): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab5_2\Lab5_2.cpp(6,5): message : см. объявление "kol_wozeros"

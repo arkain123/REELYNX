@@ -1,0 +1,10 @@
+﻿  Lab4_2.cpp
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_2\Lab4_2.cpp(9,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_2\Lab4_2.cpp(10,10): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_2\Lab4_2.cpp(13,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_2\Lab4_2.cpp(14,10): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_2\Lab4_2.cpp(23,24): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_2\Lab4_2.cpp(27,24): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_2\Lab4_2.cpp(31,24): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_2\Lab4_2.cpp(48,8): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Lab4_2.vcxproj -> C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\x64\Debug\Lab4_2.exe
