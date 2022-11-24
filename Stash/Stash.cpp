@@ -1,22 +1,56 @@
-﻿#include <iostream>
-#include <ostream>
-#include <istream>
-
+﻿#include<iostream>
+#include<cmath>
 using namespace std;
 
-void setBinNumber(int Number) {
+double f(int w, double z, double x) {
+    z = 0;
+    if (w == 1) {
+        z = x;
+    }
+    else if (w == 2) {
+        z = exp(x);
+    }
+    return z;
+}
 
-    char tmp;  
+double one(double x, int i, double z) {
+    return(pow(i, 3) * sqrt(pow(z, 3)));
+}
 
-    string binNumber_;  
+double two(double x, int i, double z) {
+    return(7 * i * abs(z));
+}
 
-    while (Number) {
-        tmp = '0' + Number % 2;
-        //cout<<"tmp="<<tmp<<endl;
-        binNumber_ = tmp + binNumber_;  //concatenation
-        //cout<<"binNumber_="<<binNumber_<<endl;
-        Number /= 2;
+double three(double x, int i, double z) {
+    return(sqrt(abs(i - z)));
+}
+
+int main() {
+    setlocale(LC_ALL, "");
+    int i, w;
+    double x, z = 0;
+    cout << "Введите целое значение х= ";
+    cin >> x;
+    cout << "Введите целое значение i= ";
+    cin >> i;
+
+    cout << "Введите значение w=  При значении w = 1 значение х будет представленно в виде степенной функции."
+        "При значении w = 2 значение х будет представленно в экспоненциальной форме. w = ";
+    cin >> w;
+
+    z = f(w, z, x);
+
+    if (x > 0 && i % 2 == 0)
+    {
+        cout << "e= " << one(x, i, z);
+    }
+    else if (x < 0 && i % 2 != 0)
+    {
+        cout << "e= " << two(x, i, z);
+    }
+    else {
+        cout << "e= " << three(x, i, z);
 
     }
-    cout << binNumber_;
+    return 0;
 }

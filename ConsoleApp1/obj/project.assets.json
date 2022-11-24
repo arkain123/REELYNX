@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Новая папка\\БНТУ\\1 курс\\1 семестр\\ОАиП\\Code\\Lab1\\ConsoleApp1\\C-Sharp Stash.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\source\\Lab1\\REELYNX\\ConsoleApp1\\C-Sharp Stash.csproj",
       "projectName": "C-Sharp Stash",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\Новая папка\\БНТУ\\1 курс\\1 семестр\\ОАиП\\Code\\Lab1\\ConsoleApp1\\C-Sharp Stash.csproj",
+      "projectPath": "C:\\Users\\ASUS\\source\\Lab1\\REELYNX\\ConsoleApp1\\C-Sharp Stash.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\Новая папка\\БНТУ\\1 курс\\1 семестр\\ОАиП\\Code\\Lab1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\source\\Lab1\\REELYNX\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
