@@ -1,0 +1,4 @@
+﻿  Lab7.cpp
+E:\BNTU\REELYNX\Borodkin\Lab7\Lab7.cpp(34,16): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+E:\BNTU\REELYNX\Borodkin\Lab7\Lab7.cpp(155,7): warning C4101: null: неиспользованная локальная переменная
+  Lab7.vcxproj -> E:\BNTU\REELYNX\x64\Debug\Lab7.exe

@@ -1,6 +1,0 @@
-﻿  Lab4_3.cpp
-C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_3\Lab4_3.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_3\Lab4_3.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_3\Lab4_3.cpp(40,11): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab4_3\Lab4_3.cpp(52,13): warning C4244: return: преобразование "double" в "float", возможна потеря данных
-  Lab4_3.vcxproj -> C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\x64\Debug\Lab4_3.exe

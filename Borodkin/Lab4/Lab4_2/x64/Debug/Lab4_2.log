@@ -1,0 +1,4 @@
+﻿  Lab4_2.cpp
+E:\BNTU\REELYNX\Borodkin\Lab4\Lab4_2\Lab4_2.cpp(9,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+E:\BNTU\REELYNX\Borodkin\Lab4\Lab4_2\Lab4_2.cpp(13,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Lab4_2.vcxproj -> E:\BNTU\REELYNX\x64\Debug\Lab4_2.exe
