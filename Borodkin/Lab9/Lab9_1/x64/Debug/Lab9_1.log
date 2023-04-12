@@ -1,9 +1,3 @@
 ﻿  Lab9_1.cpp
-E:\BNTU\REELYNX\Borodkin\Lab9\Lab9_1\Lab9_1.cpp(45,10): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "char *"
-E:\BNTU\REELYNX\Borodkin\Lab9\Lab9_1\Lab9_1.cpp(45,10): warning C4313: printf: конфликт "%d" в строке формата с аргументом 1 типа "char *"
-E:\BNTU\REELYNX\Borodkin\Lab9\Lab9_1\Lab9_1.cpp(45,10): warning C4477: "printf": в строке форматирования "%f" требуется аргумент типа "double", но вариативный аргумент "2" имеет тип "int"
-E:\BNTU\REELYNX\Borodkin\Lab9\Lab9_1\Lab9_1.cpp(21,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-E:\BNTU\REELYNX\Borodkin\Lab9\Lab9_1\Lab9_1.cpp(24,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-E:\BNTU\REELYNX\Borodkin\Lab9\Lab9_1\Lab9_1.cpp(27,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-E:\BNTU\REELYNX\Borodkin\Lab9\Lab9_1\Lab9_1.cpp(32,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-E:\BNTU\REELYNX\Borodkin\Lab9\Lab9_1\Lab9_1.cpp(43,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BNTU\REELYNX\Borodkin\Lab9\Lab9_1\Lab9_1.cpp(37): warning C4715: oned_to_twod: значение возвращается не при всех путях выполнения
+  Lab9_1.vcxproj -> E:\BNTU\REELYNX\x64\Debug\Lab9_1.exe

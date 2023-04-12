@@ -1,3 +1,4 @@
 ﻿  Lab Old.cpp
-E:\BNTU\REELYNX\Borodkin\Lab Old\Lab Old.cpp(55,5): error C2084: функция "int main(void)" уже имеет текст реализации
-E:\BNTU\REELYNX\Borodkin\Lab Old\Lab Old.cpp(7,5): message : см. предыдущее определение "main"
+E:\Visual Studio\Visual Studio Base\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1096,5): error MSB6006: "link.exe" завершилась с кодом 1120.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+E:\BNTU\REELYNX\x64\Debug\Lab Old.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
