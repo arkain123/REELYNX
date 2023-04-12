@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\REELYNX\\.nuget\\packages\\": {},
+    "E:\\Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\source\\Lab1\\REELYNX\\ConsoleApp1\\C-Sharp Stash.csproj",
+      "projectUniqueName": "E:\\BNTU\\REELYNX\\ConsoleApp1\\C-Sharp Stash.csproj",
       "projectName": "C-Sharp Stash",
-      "projectPath": "C:\\Users\\ASUS\\source\\Lab1\\REELYNX\\ConsoleApp1\\C-Sharp Stash.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\source\\Lab1\\REELYNX\\ConsoleApp1\\obj\\",
+      "projectPath": "E:\\BNTU\\REELYNX\\ConsoleApp1\\C-Sharp Stash.csproj",
+      "packagesPath": "C:\\Users\\REELYNX\\.nuget\\packages\\",
+      "outputPath": "E:\\BNTU\\REELYNX\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\REELYNX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
