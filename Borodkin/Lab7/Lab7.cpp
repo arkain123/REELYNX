@@ -45,7 +45,7 @@ void showData(student* M) {
 void getData(student* M) {
 	for (int i = 0; i < 10; i++) {
 		system("cls");
-		cout << "\n";
+		cout << "Ведите информацию о студенте\n";
 		cout << "ИМЯ: ";
 		cin.ignore();
 		cin.getline(M[i].name, 15);

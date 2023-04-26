@@ -1,47 +1,76 @@
-﻿#include <stdio.h>
-#include <conio.h>
+﻿#include <iostream>
+#include <fstream>
 
-struct note {
-	char lastname[20];
-	char phone_number[20];
+using namespace std;
+
+struct NOTES {
+	string last_name;
+	string number;
 	int date[3];
 	int salary;
+
+	void vvod() {
+
+		cout << "Введите фамилию: "; cin >> last_name;
+		cout << "Введите номер телефона: "; cin >> number;
+		cout << "Введите оклад: "; cin >> salary;
+		cout << "Введите дату рождения: ";
+		for (int i = 0; i < 3; ++i) cin >> date[i];
+		cout << endl;
+	}
+
+	void vivod() {
+		cout << "Фамилия: " << last_name << endl;
+		cout << "Номер телефона: " << number << endl;
+		cout << "Оклад: " << salary << endl;
+		cout << "Дата рождения: ";
+		for (int i = 0; i < 3; ++i) cout << date[i] << " ";
+		cout << endl << endl;
+	}
 };
 
+//void write_info() {
+//	system("cls");
+//	cout << "Введите фамилию сотрудника: ";
+//	cin >> 
+//}
+//
+//void read_info() {
+//
+//}
+
 int main() {
-	note workers;
-	FILE* f1;
-	int option = 2;
-	puts("Choose option: ");
-	puts("1. Edit file");
-	puts("2. View file");
-	puts("Any other. Exit program");
-	//scanf("%s", &option);
-	if (option == 1) {
-		f1 = fopen("data.bin", "wb");
-		while (true) {
-			puts(("Input last name or 0 (input ends): "));
-			scanf("%s", &workers.lastname);
-			if (workers.lastname[0] == '0') break;
-			puts(("Input salary: "));
-			scanf("%d", &workers.salary);
-			fwrite(&workers, sizeof(workers), 1, f1);
+	setlocale(LC_ALL, "rus");
+	int wish;
+	int n; cout << "Введите количество элементов в массиве: "; cin >> n;
+	NOTES* note = new NOTES[n];
+
+	ofstream file;
+	file.open("1.dat", ios::binary);
+	if (!(file.is_open())) cerr << "Error!\n";
+	else {
+		for (int i = 0; i < n; ++i) {
+			note[i].vvod();
+			file.write((char*)&note[i], sizeof(NOTES));
 		}
-		fclose(f1);
-		puts(("File data.bin edited.\n"));
-		f1 = fopen("data.bin", "r+b");
-		while (true) {
-			fread(&workers, sizeof(workers), 1, f1);
-			if (!feof(f1)) {
-				break;
-			};
-			printf("last name = %s, salary = %d", workers.lastname, workers.salary);
-		}
-		fclose(f1);
 	}
-	else if (option == 2) {
-		f1 = fopen("data.bin", "rb");
-		fread(&workers, sizeof(note), 1, f1);
-		printf("%d %f", workers.lastname, workers.salary);
-	};
+	file.close();
+
+	/*NOTES* note1 = new NOTES[n];
+	ifstream file1; 
+	file1.open("1.dat", ios::binary);
+	if (!(file1.is_open())) cerr << "Error!\n";
+	else {
+		for (int i = 0; i < n; ++i) {
+			file1.read((char*)&note1[i], sizeof(NOTES));
+		}
+	}
+	file1.close();
+	cout << "\n\n";
+
+	for (int i = 0; i < n; ++i) {
+		note1[i].vivod();
+	}*/
+	delete[] note;
+	/*delete[] note1;*/
 }

@@ -15,8 +15,8 @@ void matrix_out(int m[]) {
 	cout << endl << endl;
 }
 
-int oned_to_twod(int m[], int** m2, int rows, int columns) {
-	int row = 0;
+int oned_to_twod(int m[], int** m2, int rows, int columns) {		
+	int row = 0;													
 	int column = 0;
 	for (int i = 0; i < (rows * columns * rows); i++) {
 		if (row == rows) {
@@ -79,6 +79,7 @@ int main() {
 	for (int i = 0; i < rows; i++) {
 		m2[i] = new int[columns];
 	}
+
 	oned_to_twod(m, m2, rows, columns);
 	
 	for (int i = 0; i < (rows); i++) {
