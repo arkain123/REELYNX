@@ -16,20 +16,20 @@ void matrix_out(int m[]) {
 	cout << endl << endl;
 }
 
-void min_max_dist(int m[]) {
+void min_max_dist(int *pm) {
 
-	int* min = &m[0];
-	int* max = &m[0];
+	int* min = &pm[0];
+	int* max = &pm[0];
 	int max_i = 0;
 	int min_i = 0;
 
 	for (int i = 0; i < 100; i++) {
-		if (m[i] > *max) {
-			max = &m[i];
+		if (*(pm+i) > *max) {
+			max = pm+i;
 			max_i = i;
 		}
-		if (m[i] < *min) {
-			min = &m[i];
+		if (pm[i] < *min) {
+			min = &pm[i];
 			min_i = i;
 		}
 	};
@@ -131,10 +131,11 @@ int main() {
 
 	int m2[10][10];
 	char m3[10][10][10]; string input_word;
+	int* pm = &m[100];
 	getline(cin, input_word);
 
 	matrix_out(m);
-	min_max_dist(m);
+	min_max_dist(pm);
 	oned_to_twod(m, m2);
 	zero_adresses(m2);
 	threed_build(m3);

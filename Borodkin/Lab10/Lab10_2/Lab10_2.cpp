@@ -30,7 +30,7 @@ double equ4(double x) {
 //    return (l + r) / 2;
 //}
 
-double mainf(double f(double), double range[], double eps) {
+double mainf(double *f(double), double range[], double eps) {
     setlocale(LC_ALL, "RUS");
     double r[2] = { range[0], range[1] };
     double c = (r[0] + r[1]) / 2;

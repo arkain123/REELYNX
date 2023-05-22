@@ -3,21 +3,13 @@
 using namespace std;
 
 int min_number(int a, int b) {
-	if (a <= b) {
-		return a;
-	}
-	else {
-		return b;
-	}
+	if (a <= b) return a;
+	return b;
 };
 
 int max_number(int a, int b) {
-	if (a >= b) {
-		return a;
-	}
-	else {
-		return b;
-	}
+	if (a >= b) return a;
+	return b;
 };
 
 int sum_of_elements(int a, int b) {

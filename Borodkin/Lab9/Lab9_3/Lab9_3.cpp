@@ -44,6 +44,7 @@ int main() {
 	}
 
 	cout << "Какой месяц вас интересует?\n-> "; cin >> month;
+
 	cout << "\n\n";
 	for (int i = 0; i < n; ++i) {
 		if (note1[i].date[1] == month) {
@@ -51,6 +52,6 @@ int main() {
 		}
 	}
 	file1.close();
-	//delete [] note1; -- ОШИБКА
+	//delete[] note1; -- ошибка
 	//system("pause");
 }

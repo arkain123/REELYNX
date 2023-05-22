@@ -83,9 +83,15 @@ int main() {
 	oned_to_twod(m, m2, rows, columns);
 	
 	for (int i = 0; i < (rows); i++) {
-		for (int j = 0; j < (columns); j++) {
+		for (int j = 0; j < (columns); j++) { 
 			cout << m2[i][j] << "\t";
-		}
+		};
 		cout << endl;
 	}
+	
+	for (int i = 0; i < rows; i++) {
+		delete[] m2[i];
+	}
+	delete[] m2;
+
 }

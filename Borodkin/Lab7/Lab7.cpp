@@ -69,6 +69,10 @@ void getData(student* M) {
 	}
 }
 
+enum color {red, blue, green, yellow};
+
+enum area {pacific_ocean, indian_ocean, atlantic_ocean, north_ocean};
+
 struct birds {
 	char type[20];
 	float weight;
@@ -78,8 +82,8 @@ struct birds {
 
 struct fish {
 	char type[20];
-	int color;
-	int area;
+	color fcolor;
+	area farea;
 };
 
 struct reptiles {
@@ -106,13 +110,51 @@ int addInfo(animalInfo* N, int num) {
 	cout << "Дальность полёта птиц(м): ";
 	cin >> N[num].birds.distance;
 
+	int color;
+	int area;
 	cin.ignore();
 	cout << "\nВид рыб: ";
 	cin.getline(N[num].fish.type, 20);
-	cout << "Цвет рыб(1 - Красный, 2 - Сииний, 3 - Зелёный, 4 - Жёлтый): ";
-	cin >> N[num].fish.color;
+point:;
+	cout << "Цвет рыб(1 - Красный, 2 - Синий, 3 - Зелёный, 4 - Жёлтый): ";
+	cin >> color;
+	switch (color) {
+	case 1:
+		N[num].fish.fcolor = red;
+		break;
+	case 2:
+		N[num].fish.fcolor = blue;
+		break;
+	case 3:
+		N[num].fish.fcolor = green;
+		break;
+	case 4:
+		N[num].fish.fcolor = yellow;
+		break;
+	default:
+		goto point;
+		break;
+		}
+point2:;
 	cout << "Ареал обитания(1 - Тихий океан, 2 - Атлантический океан, 3 - Ледовитый океан, 4 - Индийский океан): ";
-	cin >> N[num].fish.area;
+	cin >> area;
+	switch (area) {
+	case 1:
+		N[num].fish.farea = pacific_ocean;
+		break;
+	case 2:
+		N[num].fish.farea = atlantic_ocean;
+		break;
+	case 3:
+		N[num].fish.farea = north_ocean;
+		break;
+	case 4:
+		N[num].fish.farea = indian_ocean;
+		break;
+	default:
+		goto point2;
+		break;
+	}
 
 	cin.ignore();
 	cout << "\nВид рептилий: ";
@@ -168,38 +210,38 @@ void showInfo(animalInfo* N, int num) {
 		cout << "\n\n\t\tРыбы\n";
 		cout << "Вид рыб: " << N[i].fish.type;
 		cout << "\nЦвет рыб: ";
-		if (N[i].fish.color == 1) {
+		if (N[i].fish.fcolor == red) {
 			cout << "Красный\n";
 		}
-		else if (N[i].fish.color == 2) {
+		else if (N[i].fish.fcolor == blue) {
 			cout << "Синий\n";
 		}
-		else if (N[i].fish.color == 3) {
+		else if (N[i].fish.fcolor == green) {
 			cout << "Зелёный\n";
 		}
-		else if (N[i].fish.color == 4) {
+		else if (N[i].fish.fcolor == yellow) {
 			cout << "Жёлтый\n";
 		}
 		else {
 			cout << "Другой\n";
 		}
-		cout << "\nАреал обитания: ";
-		if (N[i].fish.area == 1) {
+		cout << "Ареал обитания: ";
+		if (N[i].fish.farea == pacific_ocean) {
 			cout << "Тихий океан\n";
 		}
-		else if (N[i].fish.area == 2) {
+		else if (N[i].fish.farea == atlantic_ocean) {
 			cout << "Атлантический океан\n";
 		}
-		else if (N[i].fish.area == 3) {
+		else if (N[i].fish.farea == north_ocean) {
 			cout << "Северно-Ледовитый океан\n";
 		}
-		else if (N[i].fish.area == 4) {
+		else if (N[i].fish.farea == indian_ocean) {
 			cout << "Индийский океан\n";
 		}
 		else {
 			cout << "Другой океан\n";
 		};
-		cout << "\t\tРептилии\n";
+		cout << "\n\t\tРептилии\n";
 		cout << "Вид рептилий: " << N[i].reptiles.type;
 		cout << "\nСтрана происхождения: " << N[i].reptiles.country;
 		cout << "\nДлинна: " << N[i].reptiles.length;

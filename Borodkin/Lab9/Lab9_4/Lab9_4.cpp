@@ -32,19 +32,22 @@ struct NOTES {
 int main() {
 	system("cls");
 	setlocale(LC_ALL, "rus");
-	NOTES* arr[10] = {};
-	NOTES* note1 = new NOTES[10];
+	NOTES* arr[10];
 	ifstream file1;
 	file1.open("E:/BNTU/REELYNX/Borodkin/Lab9/Lab9_2/1.dat", ios::binary);
 	if (!(file1.is_open())) cerr << "Error!\n";
 	else {
 		for (int i = 0; i < 10; ++i) {
-			file1.read((char*)&note1[i], sizeof(NOTES));
-			arr[i] = &note1[i];
+			arr[i] = new NOTES;
+			file1.read((char*)&arr[i], sizeof(NOTES));
 		}
 	}
 	
 	for (int i = 0; i < 10; i++) {
 		cout << i+1 << " запись:\t" << arr[i] << endl;
+	}
+
+	for (int i = 0; i < 10; ++i) {
+		delete[] arr[i];
 	}
 }
