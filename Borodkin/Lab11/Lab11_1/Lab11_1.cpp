@@ -1,23 +1,30 @@
 ﻿#include <iostream>
 using namespace std;
 
-template <typename T> const T summa(const T, const T); // прототип функции
-
 struct complex {
 	double x;
 	double y;
 };
+
+void summa(int a, int b) {
+	cout << "int: " << a + b << endl;
+}
+
+void summa(double a, double b) {
+	cout << "double: " << a + b << endl;
+}
+
+void summa(complex a, complex b) {
+	cout << "complex: " << a.x + b.x << " + " << a.y + b.y << "i" << endl;
+}
 
 int main() {
 	int a = 3, b = 2;
 	double c = 3.3, d = 4.8;
 	complex number1 = { 8, 12 };
 	complex number2 = { 4, 15 };
-	cout << "int: " << summa(a, b) << endl; //5
-	cout << "double: " << summa(c, d) << endl; //8.1
-	cout << "complex: " << summa(number1.x, number2.x) << " + " << summa(number1.y, number2.y) << "i" << endl;
+	summa(a, b);				//5
+	summa(c, d);				//8.1
+	summa(number1, number2);	//12 + 27i
 }
 
-template <typename T> const T summa(const T a, const T b) {
-	return a + b;
-}

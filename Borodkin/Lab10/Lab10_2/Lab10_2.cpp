@@ -59,6 +59,8 @@ double mainf(double *f(double), double range[], double eps) {
     }
     return c;
 }
+
+
 int main() {
     const double eps = 0.0001;      //задаем точность
     double range[2] = { 0.4, 1.0 }; //l = 0.4, r = 1.0;      //задаем интервал
