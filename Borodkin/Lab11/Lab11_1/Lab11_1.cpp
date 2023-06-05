@@ -19,6 +19,7 @@ void summa(complex a, complex b) {
 }
 
 int main() {
+	system("color F0");
 	int a = 3, b = 2;
 	double c = 3.3, d = 4.8;
 	complex number1 = { 8, 12 };

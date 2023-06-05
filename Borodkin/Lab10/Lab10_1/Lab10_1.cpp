@@ -21,6 +21,7 @@ int product_of_elements(int a, int b) {
 };
 
 int main() {
+	//system("color F0");
 	setlocale(LC_ALL, "ru");
 	system("cls");
 	int choise, first, second;

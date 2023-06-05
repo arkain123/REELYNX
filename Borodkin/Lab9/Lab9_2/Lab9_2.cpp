@@ -40,6 +40,7 @@ struct NOTES {
 //}
 
 int main() {
+	system("color F0");
 	setlocale(LC_ALL, "rus");
 	int wish;
 	int n; cout << "Введите количество элементов в массиве: "; cin >> n;

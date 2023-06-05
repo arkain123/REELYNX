@@ -11,6 +11,7 @@ template <typename T> double maxOfArray(T* arr, size_t n) {
 }
 
 int main() {
+    //system("color F0");
     int arr1[] = { 1, 2, 3, 4, 5, 6 };
     size_t n1 = sizeof(arr1) / sizeof(arr1[0]); //вычисляем размер массива
     double arr2[] = { 1.4, 2.5, 6.4, 3.3, 4.1, 5.4, 6.3 };

@@ -54,6 +54,7 @@ void zero_adresses(int(&m2)[10][10]) {
 */
 
 int main() {
+	system("color F0");
 	setlocale(LC_ALL, "ru");
 	system("cls");
 	int m[100] = { 16,  78,  99,   6, -29,  19, -52,  65, -88,  51,

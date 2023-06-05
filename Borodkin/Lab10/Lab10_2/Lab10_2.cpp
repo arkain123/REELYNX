@@ -30,7 +30,7 @@ double equ4(double x) {
 //    return (l + r) / 2;
 //}
 
-double mainf(double *f(double), double range[], double eps) {
+double mainf(double f(double), double range[], double eps) {
     setlocale(LC_ALL, "RUS");
     double r[2] = { range[0], range[1] };
     double c = (r[0] + r[1]) / 2;
@@ -62,6 +62,7 @@ double mainf(double *f(double), double range[], double eps) {
 
 
 int main() {
+    //system("color F0");
     const double eps = 0.0001;      //задаем точность
     double range[2] = { 0.4, 1.0 }; //l = 0.4, r = 1.0;      //задаем интервал
     double (*pointers[4])(double) = { equ1, equ2, equ3, equ4 };

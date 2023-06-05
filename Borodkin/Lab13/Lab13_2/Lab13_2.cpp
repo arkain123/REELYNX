@@ -154,5 +154,3 @@ int main() {
 	setlocale(LC_ALL, "rus");
 	startMenu();
 }
-
-//Исправить алгоритм поиска элемента
