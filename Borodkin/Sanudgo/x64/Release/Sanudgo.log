@@ -1,6 +1,7 @@
 ﻿  Sanudgo.cpp
   Создание кода
-  Previous IPDB was built with incompatible compiler, fall back to full compilation.
-  All 19 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  17 of 19 functions (89.5%) were compiled, the rest were copied from previous compilation.
+    8 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
-  Sanudgo.vcxproj -> C:\Users\REELYNX\source\repos\Reelynx\x64\Release\Sanudgo.exe
+  Sanudgo.vcxproj -> C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\x64\Release\Sanudgo.exe
