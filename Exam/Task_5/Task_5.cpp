@@ -16,6 +16,6 @@ template <class T> T minElem(T* p) {
 int main() {
 	int arr[5]{ 1, 3, -4, 3, 5 };
 	int* parr = arr;
-
-	cout << minElem(parr);
+	int* pres = minElem(&parr);
+	cout << pres;
 }

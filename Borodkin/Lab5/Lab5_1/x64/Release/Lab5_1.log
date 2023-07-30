@@ -1,12 +1,12 @@
 ﻿  Lab5_1.cpp
-C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab5_1\Lab5_1.cpp(36,18): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
-C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab5_1\Lab5_1.cpp(44,17): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
-C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab5_1\Lab5_1.cpp(60,38): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab5_1\Lab5_1.cpp(61,40): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\REELYNX\source\repos\Reelynx\Borodkin\Lab5\Lab5_1\Lab5_1.cpp(36,18): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\REELYNX\source\repos\Reelynx\Borodkin\Lab5\Lab5_1\Lab5_1.cpp(44,17): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
+C:\Users\REELYNX\source\repos\Reelynx\Borodkin\Lab5\Lab5_1\Lab5_1.cpp(60,38): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\REELYNX\source\repos\Reelynx\Borodkin\Lab5\Lab5_1\Lab5_1.cpp(61,40): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
   Создание кода
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab5_1\Lab5_1.cpp(46): error C4716: comp_counting: должна возвращать значение
-C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab5_1\Lab5_1.cpp(31): error C4716: bubble_sort: должна возвращать значение
-C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\Lab5_1\Lab5_1.cpp(27): error C4789: буфер "numbers" размером 80 байт будет переполнен; 8 будет записано начиная с позиции 80
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+C:\Users\REELYNX\source\repos\Reelynx\Borodkin\Lab5\Lab5_1\Lab5_1.cpp(46): error C4716: comp_counting: должна возвращать значение
+C:\Users\REELYNX\source\repos\Reelynx\Borodkin\Lab5\Lab5_1\Lab5_1.cpp(31): error C4716: bubble_sort: должна возвращать значение
+C:\Users\REELYNX\source\repos\Reelynx\Borodkin\Lab5\Lab5_1\Lab5_1.cpp(27): error C4789: буфер "numbers" размером 80 байт будет переполнен; 8 будет записано начиная с позиции 80
   All 14 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
 LINK : fatal error LNK1257: не удалось создать код

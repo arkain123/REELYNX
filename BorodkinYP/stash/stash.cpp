@@ -1,48 +1,48 @@
 ﻿#include <iostream>
-#include <fstream>
+#include "windows.h"
+#include "mmsystem.h"
 
 using namespace std;
 
-struct AEROFLOT {
-	string number;
-	string destination;
-	string type;
-	int salary;
-
-	void vvod() {
-
-		cout << "Введите номер рейса: "; cin >> number;
-		cout << "Введите место назначения: "; cin >> destination;
-		cout << "Введите тип самолёта: "; cin >> type;
-		cout << "Введите цену билета: "; cin >> salary;
-		cout << endl;
+void epilepsy() {
+	while (true) {
+		system("color 14");
+		cout << "\t\t\t\t\t\t\tEPILEPSY";
+		system("color 25");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color 36");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color 47");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color 58");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color 69");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color 70");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color 8A");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color 9B");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color 0C");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color AD");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color BE");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color CF");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color D1");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color E2");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY";
+		system("color F3");
+		cout << "\n\t\t\t\t\t\t\tEPILEPSY\n";
 	}
-
-	void vivod() {
-		cout << "Номер рейса: " << number << endl;
-		cout << "Место назначения: " << destination << endl;
-		cout << "Тип самолёта: " << type << endl;
-		cout << "Цена билета: " << salary << endl;
-		cout << endl << endl;
-	}
-};
+}
 
 int main() {
-	setlocale(LC_ALL, "rus");
-	int wish;
-	int n; cout << "Введите количество элементов в массиве: "; cin >> n;
-	AEROFLOT* note = new AEROFLOT[n];
-
-	ofstream file;
-	file.open("5.dat", ios::binary);
-	if (!(file.is_open())) cerr << "Error!\n";
-	else {
-		for (int i = 0; i < n; ++i) {
-			note[i].vvod();
-			file.write((char*)&note[i], sizeof(AEROFLOT));
-		}
-	}
-	file.close();
-	//delete[] note1; -- ошибка
-	//system("pause");
+	system("color F0");
+	cout << "\t\t\t\t\t\t\tEPILEPSY\n";
+	epilepsy();
 }

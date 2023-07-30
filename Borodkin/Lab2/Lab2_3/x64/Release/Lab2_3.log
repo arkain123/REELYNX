@@ -1,6 +1,6 @@
 ﻿  Lab2_3.cpp
   Создание кода
-  Previous IPDB not found, fall back to full compilation.
-  Создание кода завершено
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
   All 11 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Lab2_3.vcxproj -> C:\Users\ASUS\Desktop\Новая папка\БНТУ\1 курс\1 семестр\ОАиП\Code\Lab1\x64\Release\Lab2_3.exe
+  Создание кода завершено
+  Lab2_3.vcxproj -> C:\Users\REELYNX\source\repos\Reelynx\x64\Release\Lab2_3.exe
